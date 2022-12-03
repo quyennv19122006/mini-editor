@@ -1,5 +1,6 @@
 import * as monaco from 'monaco-editor';
-import './userWorker';
+import './editorWorker';
+import './editorFeatures';
 import './style.css';
 
 const editor = monaco.editor.create(document.querySelector('#container')!, {
